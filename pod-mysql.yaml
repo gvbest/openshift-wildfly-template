@@ -13,13 +13,13 @@ spec:
       name: mysql
       env:
         - name: MYSQL_ROOT_PASSWORD
-          value: yourpassword
+          value: 123456
         - name: MYSQL_USER
-          value: wp_user
+          value: user
         - name: MYSQL_PASSWORD
-          value: wp_pass
+          value: 123456
         - name: MYSQL_DATABASE
-          value: wp_db
+          value: test
       ports:
         - containerPort: 3306
           name: mysql
